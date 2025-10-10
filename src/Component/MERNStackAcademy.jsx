@@ -379,7 +379,6 @@ export default function MERNStackAcademy() {
     <div className="min-h-screen 
     bg-gradient-to-br   from-blue-900  via-black  to-red-900  pb-20 md:pb-0  " >
 
-      {/* Navigation */}
       <nav className="backdrop-blur-md border-b border-white/10 fixed w-full top-0 z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
@@ -392,8 +391,6 @@ export default function MERNStackAcademy() {
                 Suraj Rajput
               </div>
             </div>
-
-            {/* Desktop Navigation */}
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-8">
                 <button data-aos="zoom-in" onClick={() => scrollToSection('about')} className="text-gray-300 hover:text-white transition-colors">About</button>
@@ -417,7 +414,6 @@ export default function MERNStackAcademy() {
 
             </div>
 
-            {/* Mobile menu button */}
             <div onClick={() => {
               document.getElementById('hire')?.scrollIntoView({ behavior: 'smooth' });
             }}
@@ -434,7 +430,6 @@ export default function MERNStackAcademy() {
       </nav>
 
 
-      {/* Bottom Mobile Navigation */}
       <div className="md:hidden fixed bottom-0 left-0 right-0  bg-transparent   0 backdrop-blur-lg border-t border-white/10 z-50">
         <div className="flex justify-around items-center py-2">
           <button
@@ -546,7 +541,7 @@ export default function MERNStackAcademy() {
 
                 <div className="grid grid-cols-3 gap-6 text-center">
                   <div>
-                    <div className="text-2xl font-bold text-white">15+</div>
+                    <div className="text-2xl font-bold text-white">10+</div>
                     <div className="text-gray-400 text-sm">Projects Built</div>
                   </div>
                   <div>

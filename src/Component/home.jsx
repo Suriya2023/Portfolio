@@ -54,7 +54,6 @@ export default function SocialMediaMarketingLanding() {
             </button>
           </div>
 
-          {/* Mobile Menu Button */}
           <button
             className="md:hidden p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -63,7 +62,6 @@ export default function SocialMediaMarketingLanding() {
           </button>
         </nav>
 
-        {/* Mobile Menu */}
         {isMenuOpen && (
           <div className="md:hidden absolute top-full left-0 right-0 bg-white/95 backdrop-blur-lg shadow-lg rounded-2xl mx-4 mt-2 p-6 space-y-4">
             <a href="#" className="block text-gray-600 hover:text-gray-900 transition-colors">About</a>
@@ -77,10 +75,8 @@ export default function SocialMediaMarketingLanding() {
         )}
       </header>
 
-      {/* Main Content */}
       <main className="relative z-10 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center py-12">
-          {/* Left Column */}
           <div className="space-y-8">
             <div className="space-y-6">
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
@@ -92,7 +88,6 @@ export default function SocialMediaMarketingLanding() {
               </h1>
             </div>
 
-            {/* Tabs */}
             <div className="space-y-4">
               {tabs.map((tab) => {
                 const IconComponent = tab.icon;
@@ -122,26 +117,19 @@ export default function SocialMediaMarketingLanding() {
             </div>
           </div>
 
-          {/* Right Column - 3D Illustration */}
           <div className="relative">
             <div className="relative bg-gradient-to-br from-white/20 to-white/5 backdrop-blur-lg rounded-3xl p-8 border border-white/20">
-              {/* Person Illustration */}
               <div className="relative flex justify-center items-center h-80">
                 <div className="relative">
-                  {/* Person sitting with laptop */}
                   <div className="w-32 h-32 bg-gradient-to-br from-yellow-200 to-orange-300 rounded-full relative">
-                    {/* Head */}
                     <div className="absolute top-2 left-1/2 transform -translate-x-1/2 w-16 h-16 bg-gradient-to-br from-yellow-600 to-orange-500 rounded-full"></div>
-                    {/* Body */}
                     <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 w-20 h-16 bg-gradient-to-br from-gray-300 to-gray-400 rounded-2xl"></div>
                   </div>
 
-                  {/* Question mark bubble */}
                   <div className="absolute -top-8 -right-8 w-16 h-16 bg-gradient-to-br from-purple-500 to-pink-500 rounded-full flex items-center justify-center transform rotate-12">
                     <span className="text-white text-2xl font-bold">?</span>
                   </div>
 
-                  {/* Books stack */}
                   <div className="absolute -right-12 bottom-4 space-y-1">
                     <div className="w-8 h-2 bg-blue-400 rounded"></div>
                     <div className="w-8 h-2 bg-green-400 rounded"></div>
@@ -149,7 +137,6 @@ export default function SocialMediaMarketingLanding() {
                     <div className="w-8 h-2 bg-red-400 rounded"></div>
                   </div>
 
-                  {/* Plant */}
                   <div className="absolute -left-12 bottom-8">
                     <div className="w-4 h-8 bg-green-500 rounded-t-full"></div>
                     <div className="w-6 h-3 bg-orange-400 rounded-b-lg"></div>
@@ -160,7 +147,6 @@ export default function SocialMediaMarketingLanding() {
           </div>
         </div>
 
-        {/* Brand Logos */}
         <div className="py-12">
           <div className="flex flex-wrap items-center justify-center gap-8 opacity-70">
             {brands.map((brand, index) => (
@@ -177,7 +163,6 @@ export default function SocialMediaMarketingLanding() {
           </div>
         </div>
 
-        {/* Features Section */}
         <section className="py-16">
           <div className="text-center space-y-6 mb-12">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900">Features</h2>
@@ -187,7 +172,6 @@ export default function SocialMediaMarketingLanding() {
             </p>
           </div>
 
-          {/* Feature Cards */}
           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
             <div className="bg-white/60 backdrop-blur-lg rounded-3xl p-8 border border-white/20 hover:shadow-xl transition-all duration-300 group">
               <div className="flex items-center space-x-4 mb-6">
