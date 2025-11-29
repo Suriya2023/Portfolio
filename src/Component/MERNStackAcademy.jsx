@@ -68,43 +68,43 @@ export default function MERNStackAcademy() {
   const projects = [
 
 
-    {
-      id: 1,
-      title: "BookVerse - Interactive Library Management System",
-      subtitle: "Seamless Book Exploration with Dynamic UI & Responsive Design",
-      description: "BookVerse is a modern and elegant frontend library management system crafted with Bootstrap 5, jQuery, and Swiper.js. It provides users with a visually engaging way to explore books, authors, and collections. With dynamic content loading, users can browse different sections such as About, Books, and Contact without full page reloads. Carousels powered by Owl Carousel & Swiper.js enhance interactivity, while the responsive design ensures smooth usability across devices. The system also features a personalized user dashboard with reading progress tracking and profile management. Future plans include backend integration with Node.js + MongoDB for full-scale management, user roles, and book issue/return tracking.",
-      tech: [
-        "HTML5",
-        "CSS3",
-        "Bootstrap 5",
-        "jQuery",
-        "XML",
-        "Owl Carousel",
-        "Swiper.js",
-        "Font Awesome",
-        "Custom CSS/JS"
-      ],
-      status: "Frontend Completed | Backend Integration (Node.js + MongoDB) Planned",
-      github: "https://github.com/Suriya2023/Books_Library_New_Ui-",
-      live: "https://library-management-system-kohl-two.vercel.app/",
-      image: "📚",
-      color: "from-yellow-500/10 to-indigo-700/10",
-      screenshot: Screenshot9, 
-      features: [
-        "Dynamic Content Loading without Page Refresh",
-        "Book & Author Carousels with Owl Carousel & Swiper.js",
-        "Sidebar Navigation with User Dashboard",
-        "Reading Progress Tracking",
-        "Mobile-Friendly Responsive Design",
-        "Clean, Modern & Minimal UI",
-        "Personalized User Profile Section",
-        "Integration-Ready Architecture for Backend",
-        "Analytics Dashboard for Book Insights",
-        "Future Ready: Login System & Book Issue/Return Tracking"
-      ]
+    // {
+    //   id: 1,
+    //   title: "BookVerse - Interactive Library Management System",
+    //   subtitle: "Seamless Book Exploration with Dynamic UI & Responsive Design",
+    //   description: "BookVerse is a modern and elegant frontend library management system crafted with Bootstrap 5, jQuery, and Swiper.js. It provides users with a visually engaging way to explore books, authors, and collections. With dynamic content loading, users can browse different sections such as About, Books, and Contact without full page reloads. Carousels powered by Owl Carousel & Swiper.js enhance interactivity, while the responsive design ensures smooth usability across devices. The system also features a personalized user dashboard with reading progress tracking and profile management. Future plans include backend integration with Node.js + MongoDB for full-scale management, user roles, and book issue/return tracking.",
+    //   tech: [
+    //     "HTML5",
+    //     "CSS3",
+    //     "Bootstrap 5",
+    //     "jQuery",
+    //     "XML",
+    //     "Owl Carousel",
+    //     "Swiper.js",
+    //     "Font Awesome",
+    //     "Custom CSS/JS"
+    //   ],
+    //   status: "Frontend Completed | Backend Integration (Node.js + MongoDB) Planned",
+    //   github: "https://github.com/Suriya2023/Books_Library_New_Ui-",
+    //   live: "https://library-management-system-kohl-two.vercel.app/",
+    //   image: "📚",
+    //   color: "from-yellow-500/10 to-indigo-700/10",
+    //   screenshot: Screenshot9, 
+    //   features: [
+    //     "Dynamic Content Loading without Page Refresh",
+    //     "Book & Author Carousels with Owl Carousel & Swiper.js",
+    //     "Sidebar Navigation with User Dashboard",
+    //     "Reading Progress Tracking",
+    //     "Mobile-Friendly Responsive Design",
+    //     "Clean, Modern & Minimal UI",
+    //     "Personalized User Profile Section",
+    //     "Integration-Ready Architecture for Backend",
+    //     "Analytics Dashboard for Book Insights",
+    //     "Future Ready: Login System & Book Issue/Return Tracking"
+    //   ]
 
 
-    },
+    // },
 
     {
       id: 2,
