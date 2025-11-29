@@ -341,7 +341,10 @@ export default function MERNStackAcademy() {
         { sem: "Sem 1", sgpa: "7.54" },
         { sem: "Sem 2", sgpa: "7.68" },
         { sem: "Sem 3", sgpa: "8.35" },
-        { sem: "Sem 4", sgpa: "Processing" }
+        { sem: "Sem 4", sgpa: "8.36" },
+        { sem: "Sem 5", sgpa: "Processing" },
+        { sem: "Sem 6", sgpa: "Processing" }
+
       ]
     }
   ];
