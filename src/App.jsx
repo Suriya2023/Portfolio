@@ -1,7 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-// import viteLogo from '/favicon.ico'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate } from "react-router-dom";
 import './App.css'
 import Home from './Component/MERNStackAcademy'
 
@@ -12,6 +9,8 @@ function App() {
     <>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
 
 

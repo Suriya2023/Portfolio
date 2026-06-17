@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 body {
-    background-image: linear-gradient(to bottom right, #1e3a8a, #000000, #7f1d1d);
+    background: #0c0b09;
     padding-bottom: 5rem;
     /* Equivalent to pb-20 */
 }
@@ -19,13 +19,13 @@ body {
 
 /* Scrollbar Thumb */
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #1e3a8a, #000000, #7f1d1d);
+  background: linear-gradient(to bottom, #f5d36d, #0c0b09, #22d3ee);
   border-radius: 10px;
   transition: background 0.4s ease, transform 0.3s ease;
 }
 
 /* Scrollbar Thumb on Hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(to bottom, #1e40af, #1f2937, #991b1b);
+  background: linear-gradient(to bottom, #facc15, #27221a, #06b6d4);
   transform: scaleY(1.2);
 }
